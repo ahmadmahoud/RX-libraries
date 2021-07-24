@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ThreadActivity</string>
+    <string name="ar">العربية</string>
+    <string name="en">الانجليزية</string>
+    <string name="enter_your_text">ادخل النص</string>
+</resources>

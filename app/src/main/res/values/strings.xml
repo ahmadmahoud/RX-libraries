@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ThreadActivity</string>
+    <string name="ar">ar</string>
+    <string name="en">en</string>
+    <string name="enter_your_text">enter your text</string>
+</resources>

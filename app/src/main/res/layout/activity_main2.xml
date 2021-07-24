@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lib.MainActivity2">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/json"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:lottie_rawRes="@raw/json_true" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/imagee"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+
+    <com.zolad.zoominimageview.ZoomInImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/imagee"/>
+
+
+    <!--        app:lottie_autoPlay="true"-->
+    <!--        app:lottie_loop="true"-->
+
+    <EditText
+        android:id="@+id/et_main"
+        android:layout_marginTop="30dp"
+        android:text="@string/enter_your_text"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/btn_ar"
+        android:text="@string/ar"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_en"
+        android:text="@string/en"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/country"
+        android:layout_marginTop="20dp"
+        app:ccp_autoDetectCountry="true"
+        app:ccp_autoDetectLanguage="true"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        />
+
+<!--    اذا كنت تريد اظهار اسم الدولة بالكامل    -->
+<!--    app:ccp_showFullName="true"-->
+<!--     اذا كنت تريد اخفاء مفتاح البلد    -->
+<!--    app:ccp_showPhoneCode="false"-->
+<!--     اذا كنت تريد اخفاء اسم البلد    -->
+<!--    app:ccp_showNameCode="false"-->
+<!--     ظهور دولة معينه في المفضلة عند الاختيار    -->
+<!--    app:ccp_countryPreference="us,in"-->
+<!--     اعادة اختيار الدول للوضع الافتراضي    -->
+<!--    setCustomMasterCountries(null);-->
+<!--     لو اردت تغيير لون الكتابة    -->
+<!--    app:ccp_contentColor="@color/custom_color"-->
+<!--     تغير حجم الكتابه    -->
+<!--    app:ccp_textSize="26sp-->
+<!--    تغيير لون العلم    -->
+<!--    pp:ccp_flagBorderColor="@color/border_color"-->
+<!--    //تغيير حجم السهم    -->
+<!--    app:ccp_arrowSize="26sp"-->
+<!--    تغيير لون السهم    -->
+<!--    app:ccp_arrowColor="@color/custom_arrow_color"-->
+
+
+</LinearLayout>
